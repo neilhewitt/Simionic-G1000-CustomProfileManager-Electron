@@ -1,0 +1,19 @@
+appId: com.simionic.custom-profile-manager
+productName: Simionic Custom Profile Manager
+directories:
+  output: release
+files:
+  - dist/**/*.js
+  - src/renderer/index.html
+  - src/renderer/styles.css
+  - "!**/*.ts"
+  - "!**/*.map"
+  - "!**/node_modules/.cache"
+win:
+  target: nsis
+  icon: Bokehlicia-Captiva-Accessories-text-editor.ico
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  installerIcon: Bokehlicia-Captiva-Accessories-text-editor.ico
+asar: true
